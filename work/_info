@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Qasim\Desktop
+vsv_class_ex
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 DXx4 work 11 top_sv_unit 0 22 D392Kn[GBb<e8KDN_c7?_0
+Z3 VXRVbINoGVe4k@zlmATmdO1
+r1
+31
+Z4 IEf;n7X=ND8;OGG;WkMjAM3
+S1
+Z5 dC:\Users\Qasim\Desktop
+Z6 w1658666104
+Z7 8C:/Users/Qasim/Desktop/top.sv
+Z8 FC:/Users/Qasim/Desktop/top.sv
+L0 16
+Z9 OV;L;10.1d;51
+Z10 o-work work -O0
+Z11 !s105 top_sv_unit
+Z12 !s108 1658666116.945000
+Z13 !s107 C:/Users/Qasim/Desktop/top.sv|
+Z14 !s90 -reportprogress|300|-work|work|C:/Users/Qasim/Desktop/top.sv|
+Z15 !s100 67[UX?HeCX4@RloWYJ6ZW0
+!s85 0
+!i10b 1
+!s101 -O0
+vtop
+R1
+Z16 DXx4 work 11 top_sv_unit 0 22 C66CNSF>V8HY?ChQa<ZH12
+Z17 Ve:gFW1CKLAXc^T:7k2HoD1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;@J2_ML>cId`M;@fQ_2:l0
+IDJNoo8B[kaJ05P>YH=@d00
+R11
+S1
+Z18 dC:\Users\Qasim\Desktop\demos
+Z19 w1658747422
+Z20 8top.sv
+Z21 Ftop.sv
+L0 93
+R9
+Z22 !s108 1658747431.932000
+Z23 !s107 top.sv|
+Z24 !s90 -reportprogress|300|top.sv|
+!s101 -O0
+o-O0
+Ttop_opt
+Z25 V8kHoNf[nk>h;n1n@QR0ja0
+Z26 04 3 4 work top fast 0
+o+acc
+Z27 tCvgOpt 0
+Z28 ntop_opt
+Z29 OL;O;10.6c;65
+R5
+Z30 !s110 1658733164
+Xtop_sv_unit
+R1
+Z31 VC66CNSF>V8HY?ChQa<ZH12
+r1
+!s85 0
+31
+!i10b 1
+Z32 !s100 P<mN?cRPa2<Ha6:OQ1oAi3
+Z33 IC66CNSF>V8HY?ChQa<ZH12
+!i103 1
+S1
+R18
+R19
+R20
+R21
+L0 1
+R9
+R22
+R23
+R24
+!s101 -O0
+o-O0
+Xusb_pkg
+R1
+Z34 I09Xo3fl8QPZGcXZJ@YS3;2
+Z35 V09Xo3fl8QPZGcXZJ@YS3;2
+S1
+R5
+Z36 w1658737893
+R20
+R21
+Z37 Fmouth.svh
+Z38 Fanimal.svh
+L0 6
+R9
+r1
+31
+Z39 !s108 1658737897.370000
+Z40 !s107 animal.svh|mouth.svh|top.sv|
+R24
+o-O0
+Z41 !s100 Sf[aZKoZMLNi]6Ro@c92N3
+!i10b 1
+!s85 0
+!s101 -O0

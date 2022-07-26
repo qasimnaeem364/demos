@@ -1,0 +1,47 @@
+
+
+interface tb_ifc;
+bit a,b;
+modport tb(output a , output b );
+endinterface 
+
+class driver;
+ virtual tb_ifc vif;
+ 
+ function new(tb_ifc vif);
+    this.vif=vif;
+ endfunction 
+  
+ task send_data (input bit a ,b);
+   
+   vif.a=a;
+   vif.b=b;
+   
+endtask 
+
+
+
+endclass  
+
+module test(tb_ifc.tb tb_if)
+    
+    driver drv;
+    
+initial begin
+  drv = new(tb_if);
+  drv.send_data(3,5);
+   
+end 
+
+endmodule 
+
+module testbench();
+  
+  tb_ifc y();
+  test t0(y);
+  dut d0(y.a,y.b);
+  
+endmodule 
+  
+
+

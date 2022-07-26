@@ -1,0 +1,28 @@
+class mouth ;
+  
+  int teeth;
+  
+  function void copy(mouth arg);
+  
+  function new(int x);
+  
+
+  function display();
+    
+endclass 
+
+function void mouth::copy(mouth arg);
+      this.teeth= arg.teeth;
+  endfunction 
+
+function mouth:: new(int x);
+    
+    this.teeth=x;
+    
+endfunction 
+
+ function mouth::display();
+    
+    $display("/t Teeth count = %0d",teeth);
+    
+endfunction 

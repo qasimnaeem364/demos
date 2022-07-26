@@ -1,0 +1,74 @@
+# Reading D:/alera/modelsim_ase/tcl/vsim/pref.tcl 
+cd C:/Users/Qasim/Desktop
+vlog top.sv 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Warning: top.sv(20): (vlog-LRM-2244) Variable 'class_2' is implicitly static. You must explicitly declare it as static or automatic.
+# 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# ** Warning: top.sv(20): (vlog-LRM-2244) Variable 'class_2' is implicitly static. You must explicitly declare it as static or automatic.
+# 
+# 
+# Top level modules:
+# 	top
+vopt top +acc -o top_opt 
+# QuestaSim-64 vopt 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:53:08 on Jul 24,2022
+# vopt top "+acc" -o top_opt 
+# 
+# Top level modules:
+# 	top
+# 
+# Analyzing design...
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# -- Loading module top
+# Incremental compilation check found no design-units (out of 2) may be reused.
+# Optimizing 2 design-units (inlining 0/1 module instances):
+# -- Optimizing module top(fast)
+# ** Warning: top.sv(20): (vopt-2244) Variable 'class_2' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Optimizing package top_sv_unit(fast)
+# Optimized design name is top_opt
+# End time: 17:53:08 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim -gui top_opt 
+# vsim -gui top_opt 
+# ** Error: (vsim-3816) Optimized design "top_opt" cannot be used by this version of the simulator - it was compiled for an incompatible release of vsim
+# 
+# Error loading design
+
+vlog top.sv 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Warning: top.sv(20): (vlog-LRM-2244) Variable 'class_2' is implicitly static. You must explicitly declare it as static or automatic.
+# 
+# -- Compiling package top_sv_unit
+# -- Compiling module top
+# ** Warning: top.sv(20): (vlog-LRM-2244) Variable 'class_2' is implicitly static. You must explicitly declare it as static or automatic.
+# 
+# 
+# Top level modules:
+# 	top
+vopt top +acc -o top_opt 
+# QuestaSim-64 vopt 10.6c Compiler 2017.07 Jul 26 2017
+# Start time: 17:54:21 on Jul 24,2022
+# vopt top "+acc" -o top_opt 
+# 
+# Top level modules:
+# 	top
+# 
+# Analyzing design...
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# -- Loading module top
+# Incremental compilation check found no design-units (out of 2) may be reused.
+# Optimizing 2 design-units (inlining 0/1 module instances):
+# -- Optimizing module top(fast)
+# ** Warning: top.sv(20): (vopt-2244) Variable 'class_2' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Optimizing package top_sv_unit(fast)
+# Optimized design name is top_opt
+# End time: 17:54:21 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vsim -gui top.sv
+# OpenFile top.sv 
